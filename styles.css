@@ -27,6 +27,16 @@ body {
     margin-bottom: 0px;
 }
 
+.sol {
+     font-family: 'Nunito';
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 .buttons {
     display: flex;
     flex-direction: row;
@@ -73,6 +83,10 @@ body {
         padding: 10px 18px;
         font-size: 12px;
     }
+
+    .sol {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width: 414px) and (max-height: 736px) {
@@ -91,5 +105,9 @@ body {
     .btn {
         padding: 15px 25px;
         font-size: 14px;
+    }
+
+    .sol {
+        font-size: 10px;
     }
 }
